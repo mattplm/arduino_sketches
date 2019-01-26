@@ -1,0 +1,24 @@
+#+TITLE: 7 segment display with potentiometer
+
+* Goal
+
+  Build a simple circuit that takes a potentiometer as an input and
+  ouputs values on a single character 7 segment display.
+
+* Schematics
+
+  #+CAPTION: Schematics
+  [[./schematics.png]]
+
+* Use of the map function
+
+  Arduino's [[https://www.arduino.cc/reference/en/language/functions/math/map/][=map=]] function allows to map a number from one range to
+  another. For example:
+
+  #+BEGIN_SRC C
+  /* Value = 5 here */
+  long value = map (50, 0, 100, 0, 10);
+  #+END_SRC
+
+  This is a very useful function when dealing with analog input to
+  control anything.
