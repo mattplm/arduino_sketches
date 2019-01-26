@@ -1,0 +1,14 @@
+#+TITLE: Arduino experiences
+#+OPTIONS: toc:nil
+
+In this repository will lie some (very) small arduino projects. Most
+of the sketches in you will find here will be built to test some
+components found in basic Arduino kits (leds, small motors, IR
+sensors...). The repository is just there as a reminder for the stuff
+I may (will) forget.
+
+* LICENSE
+
+Unless otherwise stated, the code in this repository is available
+under the terms of the Apache 2.0 License. All other material (text,
+image...) is available under the terms of the CC BY-SA License.
