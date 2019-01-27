@@ -10,6 +10,13 @@
   #+CAPTION: Schematics
   [[./schematics.png]]
 
+* The assembly
+
+Now here is what it looks like in person:
+
+#+CAPTION: IRL shot
+[[./assembly.png]]
+
 * Use of the map function
 
   Arduino's [[https://www.arduino.cc/reference/en/language/functions/math/map/][=map=]] function allows to map a number from one range to
